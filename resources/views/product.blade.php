@@ -16,7 +16,7 @@ Product
             <div class="card-footer">
                 <small class="text-muted">{{$items->price}} €</small>
             </div>
-     
+            <a class="text-center"href=" {{route('dress.show',['dress'=>$items->id])}}">Info</a>
         </div>
         @endforeach
         @foreach($vestiti as $items)
@@ -29,6 +29,7 @@ Product
             <div class="card-footer">
                 <small class="text-muted">{{$items->price}} €</small>
             </div>
+            <a class="text-center"href="">Info</a>
         </div>
         @endforeach
     </div>  

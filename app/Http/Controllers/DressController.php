@@ -52,7 +52,12 @@ class DressController extends Controller
      */
     public function show($id)
     {
-        //
+        $vestitodett=Dress::find($id);
+        $data=[
+            'vestiti' =>$vestitodett
+        ];  
+
+        return view('info',$data);
     }
 
     /**
