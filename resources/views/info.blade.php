@@ -15,7 +15,7 @@ Product
             <div class="card-footer">
                 <small class="text-muted">{{$vestiti->price}} €</small>
             </div>
-            <a class="text-center"href=" {{route('dress.show',['dress'=>$vestiti->id])}}">Info</a>
+           
         </div>
     </div>
      
