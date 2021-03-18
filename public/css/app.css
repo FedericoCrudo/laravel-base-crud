@@ -10949,7 +10949,6 @@ a.text-dark:focus {
 }
 
 .card-deck .card {
-  flex-basis: 300px;
   margin-bottom: 20px;
 }
 
