@@ -11,7 +11,7 @@ Product
         
     <div class="card-deck mt-3 mb-3">
         @foreach($vestiti as $items)
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-6">
               <div class="card">
                 <img class="card-img-top" src="{{$items->img}}" alt="Card image cap">
                 <div class="card-body">
