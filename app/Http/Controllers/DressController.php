@@ -30,7 +30,7 @@ class DressController extends Controller
      */
     public function create()
     {
-        //
+        return view('add');
     }
 
     /**
@@ -41,7 +41,15 @@ class DressController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data=$request->all();
+
+        $form= new Dress();
+
+        $form->fill($data);
+        $form->save();
+
+        return redirect()->route('dress.create');
+
     }
 
     /**

@@ -8,10 +8,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-white" href="">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="">Product</a>
+        <a class="nav-link text-white" href="{{route('dress.index')}}">Product</a>
       </li>
       
     </ul>
