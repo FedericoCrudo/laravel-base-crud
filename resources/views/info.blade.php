@@ -9,7 +9,7 @@ Product
         <div class="card">
             <img class="card-img-top" src="{{$vestiti->img}}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{$vestiti->nome}}</h5>
+                <h5 class="card-title">{{$vestiti->name}}</h5>
                 <p class="card-text">{{$vestiti->descrizione}}</p> 
             </div>
             <div class="card-footer">

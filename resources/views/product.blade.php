@@ -5,9 +5,7 @@ Product
 @endsection
 
 @section('content')
-    <div class="adds">
-        <a  href="{{route('dress.create')}}">Aggiungi prodotto</a>
-    </div>
+   
         
     <div class="card-deck mt-3 mb-3">
         @foreach($vestiti as $items)
@@ -21,7 +19,7 @@ Product
                 <div class="card-footer">
                     <small class="text-muted">{{$items->price}} €</small>
                 </div>
-                <a class="text-center"href=" {{route('dress.show',['dress'=>$items->id])}}">Info</a>
+               
             </div>
         </div>
       
